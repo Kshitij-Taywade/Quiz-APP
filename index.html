@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="quiz-container">
+
+        <h1>Quiz</h1>
+        <div class="quiz-header">
+            <div id="question-count">Question </div>
+            <div id="timer">30</div>
+        </div>
+        <div id="question">Question text here</div>
+        <ul id="answers"></ul>
+        <div class="quiz-footer">
+            <button id="quit-btn">Quit</button>
+            <button id="next-btn">Next</button>
+        </div>
+    </div>
+
+    <div class="result-container hidden">
+        <div class="trophy">🏆</div>
+        <div>
+            <h2>Quiz completed successfully</h2>
+        </div>
+        <div id="score-summary"></div>
+        <button id="retry-btn">Retry</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
